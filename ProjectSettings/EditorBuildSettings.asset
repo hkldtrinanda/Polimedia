@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playgame/Corridor.unity
     guid: eb5785c3af0247644842e1ff53050242
+  - enabled: 1
+    path: Assets/Scenes/Playgame/Class Type1.unity
+    guid: fd980d81fda6fe143b52264b6ec63eaa
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
