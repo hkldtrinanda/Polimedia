@@ -54,7 +54,7 @@ UIQuestDetail.text = quests[currentQuestID].questType + " " + questProgressCount
             Debug.Log("Quest Complete!");
             quests[currentQuestID].isComplete = true;
             UIQuestTitle.text = quests[currentQuestID].questName;
-            UIQuestDetail.text = "SELESAI";
+            UIQuestDetail.text = "Kembali ke NPC";
 
         }
     }

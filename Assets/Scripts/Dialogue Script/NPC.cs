@@ -10,6 +10,7 @@
         public int questID;
         public TriggerNPC questTriggerBefore;
         public TriggerNPC questTriggerAfter;
+        public GameObject questObject, questApperance;
 
 
     private void OnTriggerEnter(Collider collision)
@@ -23,12 +24,15 @@
             {
                 QuestManager.instance.InitiateQuest(questID);
                 questTriggerBefore.StartDialogue();
+                questApperance.SetActive(true);
+                
             }
             else if(isQuestNPC == true && QuestManager.instance.quests[questID].isComplete == true)
             {
                 questTriggerAfter.StartDialogue();
                 QuestManager.instance.ResetQuest();
                 isQuestNPC = false;
+                questObject.SetActive(false);
             }
             Debug.Log("Dialogue Started");
         }
@@ -37,7 +41,10 @@
 
         private void OnTriggerExit(Collider collision)
         {
-            /*if (collision.gameObject.CompareTag("Player") == false)
-                /*trigger.StartDialogue();#1#*/
+            if (collision.gameObject.CompareTag("Player") == false)
+            {
+                
+            }
+                /*trigger.StartDialogue();*/
         }
     }
