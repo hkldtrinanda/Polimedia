@@ -10,7 +10,7 @@
         public int questID;
         public TriggerNPC questTriggerBefore;
         public TriggerNPC questTriggerAfter;
-        public GameObject questObject, questApperance;
+        public GameObject questObject, questApperance, openPanel;
 
 
     private void OnTriggerEnter(Collider collision)
@@ -25,6 +25,7 @@
                 QuestManager.instance.InitiateQuest(questID);
                 questTriggerBefore.StartDialogue();
                 questApperance.SetActive(true);
+                openPanel.SetActive(true);
                 
             }
             else if(isQuestNPC == true && QuestManager.instance.quests[questID].isComplete == true)
@@ -43,7 +44,7 @@
         {
             if (collision.gameObject.CompareTag("Player") == false)
             {
-                
+                openPanel.SetActive(false);
             }
                 /*trigger.StartDialogue();*/
         }
