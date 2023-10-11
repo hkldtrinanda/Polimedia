@@ -21,14 +21,16 @@ public class LoadCharacter : MonoBehaviour
         GameObject prefab = characterPrefabs[selectedCharacter];
 
         Vector3 targetPos = Vector3.zero;
+        Quaternion targetRot = Quaternion.identity;
         foreach (CharacterSpawnData spawnData in spawnDataPoints)
         {
             if (spawnData.id == LoadSceneBehaviour.targetID)
             {
                 targetPos = spawnData.targetPos.position;
+                targetRot = spawnData.targetPos.rotation;
             }
         }
-        GameObject clone = Instantiate(prefab, targetPos, Quaternion.identity);
+        GameObject clone = Instantiate(prefab, targetPos, targetRot);
 
         label.text = prefab.name;
         StartCoroutine(HideTextAfterDelay(10f)); // Memulai coroutine untuk menyembunyikan teks setelah 10 detik
