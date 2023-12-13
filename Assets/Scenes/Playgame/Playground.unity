@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,7 +1216,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1578,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &255860009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1944,7 +1944,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7d7fad2b9730fb44a95b16432d192eaf, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d7fad2b9730fb44a95b16432d192eaf, type: 3}
       propertyPath: m_LocalScale.x
@@ -2168,7 +2168,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2494,6 +2494,7 @@ Transform:
   m_Children:
   - {fileID: 1197716907}
   - {fileID: 2081270302}
+  - {fileID: 374172917}
   - {fileID: 737236084}
   - {fileID: 649575848}
   - {fileID: 892839527}
@@ -2504,7 +2505,6 @@ Transform:
   - {fileID: 1778812681}
   - {fileID: 1229914869}
   - {fileID: 827409206}
-  - {fileID: 374172917}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4309,7 +4309,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4479,7 +4479,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5926,7 +5926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7588976271317918408, guid: a72bfc52b990ded4b832b0406099bd90, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7588976271317918408, guid: a72bfc52b990ded4b832b0406099bd90, type: 3}
       propertyPath: m_LocalScale.x
@@ -7640,7 +7640,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9336,7 +9336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1481445961
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10275,7 +10275,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10874,7 +10874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1738303792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11322,7 +11322,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7f1a5ae7df33d4a4aa1b584675dc5b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13364,7 +13364,7 @@ MonoBehaviour:
     message: Bisa tolong bantu aku ga ya? Cukup foto buktinya saja. Terimakasih!
   actors:
   - name: Andri
-    sprite: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    sprite: {fileID: 21300000, guid: 34c980e013492124897d345262218204, type: 3}
 --- !u!114 &2081270306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13402,7 +13402,7 @@ MonoBehaviour:
     message: Halo, hai, ada yang bisa aku bantu?
   actors:
   - name: Poli
-    sprite: {fileID: 21300000, guid: 34c980e013492124897d345262218204, type: 3}
+    sprite: {fileID: 0}
 --- !u!114 &2081270308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13422,9 +13422,9 @@ MonoBehaviour:
     message: Terima Kasih
   actors:
   - name: Poli
-    sprite: {fileID: 21300000, guid: 34c980e013492124897d345262218204, type: 3}
+    sprite: {fileID: 0}
   - name: Andri
-    sprite: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    sprite: {fileID: 21300000, guid: 34c980e013492124897d345262218204, type: 3}
 --- !u!64 &2096340529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14884,7 +14884,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 255860010}
         m_TargetAssemblyTypeName: MenuScene, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -15679,7 +15679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7588976271317918408, guid: a72bfc52b990ded4b832b0406099bd90, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7588976271317918408, guid: a72bfc52b990ded4b832b0406099bd90, type: 3}
       propertyPath: m_LocalScale.x
